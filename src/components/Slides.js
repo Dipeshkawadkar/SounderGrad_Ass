@@ -61,7 +61,6 @@ export default class Slides extends Component {
     };
     return (
       <div>
-        <h2>Previous and Next methods</h2>
         <div style={{ textAlign: "center" }}>
           <button
             data-testid="button-restart"
@@ -88,7 +87,6 @@ export default class Slides extends Component {
 
         <Slider ref={(c) => (this.slider = c)} {...settings}>
           <Card key={1}>
-            <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
               <Card.Title data-testid="title">Card Title</Card.Title>
               <Card.Text data-testid="text">
@@ -98,7 +96,6 @@ export default class Slides extends Component {
             </Card.Body>
           </Card>
           <Card key={2}>
-            <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
               <Card.Title data-testid="title">Card Title</Card.Title>
               <Card.Text data-testid="text">
@@ -108,7 +105,6 @@ export default class Slides extends Component {
             </Card.Body>
           </Card>
           <Card key={3}>
-            <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
               <Card.Title data-testid="title">Card Title</Card.Title>
               <Card.Text data-testid="text">
@@ -118,7 +114,6 @@ export default class Slides extends Component {
             </Card.Body>
           </Card>
           <Card key={4}>
-            <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
               <Card.Title data-testid="title">Card Title</Card.Title>
               <Card.Text data-testid="text">
@@ -128,7 +123,6 @@ export default class Slides extends Component {
             </Card.Body>
           </Card>
           <Card key={5}>
-            <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
               <Card.Title data-testid="title">Card Title</Card.Title>
               <Card.Text data-testid="text">
