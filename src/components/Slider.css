@@ -1,0 +1,21 @@
+.slick-prev {
+  left: 3% !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 3% !important;
+  z-index: 1;
+}
+.slick-disabled {
+  display: none;
+}
+.slick-prev {
+  left: 3% !important;
+  background: rgba(47, 47, 47, 0.533);
+  z-index: 1;
+}
+.slick-next {
+  right: 3% !important;
+  background: rgba(47, 47, 47, 0.533);
+  z-index: 1;
+}
